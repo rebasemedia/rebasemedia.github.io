@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  asy
+  async redirects() {
+    return [
+      {
+        source: '/pradumna',
+        destination: '/',
+        permanent: false,
+      },
+    ];
+  },
 };
 
-module.exports = nextConfig 
+export default nextConfig;
