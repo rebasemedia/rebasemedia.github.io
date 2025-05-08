@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { MyComponent } from './MyComponent'; // Correct for named export
 
 const CountdownScript = () => {
   useEffect(() => {
